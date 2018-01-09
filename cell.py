@@ -10,5 +10,9 @@ class Cell:
     def draw_color(self):
         return self.color
 
-    def get_propreties():
+    def get_propreties(self):
         return self.propreties
+
+    def get_text(self):
+        """Returns the text, which would be displayed if the cursor is over this cell"""
+        return "Just a cell"
